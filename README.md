@@ -18,9 +18,11 @@
     } Foo;
     ```
 
+    ```c
     Foo test = Foo(42);
 
     println("Value is : {}", test.getValue());
+    ```
 
 - Add RAII and operator overload
 
